@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`every functionality works 在 home 页面, 可以点击 switch-desktop 1`] = `
+<h2
+  data-testid="message"
+>
+  The Phone is switching Desktop
+</h2>
+`;
+
+exports[`every functionality works 在其他页面. 点击 home 都会返回 home 页面 1`] = `
+<h2
+  data-testid="message"
+>
+  The Phone is opening App
+</h2>
+`;
+
+exports[`every functionality works 在其他页面. 点击 home 都会返回 home 页面 2`] = `
+<h2
+  data-testid="message"
+>
+  The phone is at home
+</h2>
+`;
+
+exports[`every functionality works 在其他页面. 点击 home 都会返回 home 页面 3`] = `
+<h2
+  data-testid="message"
+>
+  The Phone is switching Desktop
+</h2>
+`;
+
+exports[`every functionality works 在其他页面. 点击 home 都会返回 home 页面 4`] = `
+<h2
+  data-testid="message"
+>
+  The phone is at home
+</h2>
+`;
+
+exports[`every functionality works 如果不在 Home 页面时,  点击 opening app 会出现错误页面 1`] = `
+<h2
+  data-testid="message"
+>
+  The operation is not allowed
+</h2>
+`;
+
+exports[`every functionality works 如果在错误页面只有 返回 home, 其他操作都是不允许的 1`] = `
+<h2
+  data-testid="message"
+>
+  The operation is not allowed
+</h2>
+`;
+
+exports[`every functionality works 如果在错误页面只有 返回 home, 其他操作都是不允许的 2`] = `
+<h2
+  data-testid="message"
+>
+  The operation is not allowed
+</h2>
+`;
+
+exports[`every functionality works 如果在错误页面只有 返回 home, 其他操作都是不允许的 3`] = `
+<h2
+  data-testid="message"
+>
+  The operation is not allowed
+</h2>
+`;
+
+exports[`every functionality works 当在 home 页面时, openApp 会打开一个 app 1`] = `
+<h2
+  data-testid="message"
+>
+  The Phone is opening App
+</h2>
+`;
+
+exports[`every functionality works 第一次按下 Home 键, 应该是 Unlocked 1`] = `
+<h2
+  data-testid="message"
+>
+  The Phone is Unlocked
+</h2>
+`;
+
+exports[`every functionality works 第二次按下home, 回到 home 1`] = `
+<h2
+  data-testid="message"
+>
+  The phone is at home
+</h2>
+`;
+
+exports[`every functionality works 默认 state 应该是 Locked 1`] = `
+<h2
+  data-testid="message"
+>
+  The Phone is Locked
+</h2>
+`;
